@@ -1,7 +1,15 @@
 var express = require('express');
 var app = express();
 var gradesJson = require('./studentsGrades.json');
-var port = Number(process.env.PORT || 3000);
+var port=process.env.PORT||3000;
+
+
+
+app.get("/",function(req,res){
+    var msg="Error";
+    res.send(msg);
+});
+
 
 app.get('/getAllStudent', function(req,res) { // Sending all students information
     res.json(gradesJson);
@@ -44,10 +52,6 @@ app.get('/getStudentsByYear/:year', function(req,res) {
     res.send(msg); //sending relevant students sorting by year
 });
 
-app.get('/*',function(req,res){
-    var msg="<h1 style=color:#FF0000>Error!!!</h1>";
-    res.send(msg);
-});
 
 
 app.listen(port);
