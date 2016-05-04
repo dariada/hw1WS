@@ -1,0 +1,116 @@
+{
+  "students": [{
+    "name": "Daria Dadov",
+    "studentId":10,
+    "year": 3,
+    "courses": [{
+      "courseName": "C",
+      "grade": 90
+    }, {
+      "courseName": "Java",
+      "grade": 83
+    }, {
+      "courseName": "Web Services",
+      "grade": 90
+    }]
+
+  }, {
+    "name": "Karin Levy",
+    "studentId":20,
+    "year": 3,
+    "courses": [{
+      "courseName": "C",
+      "grade": 93
+    }, {
+      "courseName": "Java",
+      "grade": 75
+    }, {
+      "courseName": "Web Services",
+      "grade": 78
+    }]
+  }, {
+    "name": "Eyal Yashar",
+    "studentId":30,
+    "year": 4,
+    "courses": [{
+      "courseName": "C",
+      "grade": 82
+    }, {
+      "courseName": "Java",
+      "grade": 96
+    }, {
+      "courseName": "Web Services",
+      "grade": 77
+    }]
+  }, {
+    "name": "Oren Maoz",
+    "studentId":40,
+    "year": 4,
+    "courses": [{
+      "courseName": "C",
+      "grade": 36
+    }, {
+      "courseName": "Java",
+      "grade": 45
+    }, {
+      "courseName": "Web Services",
+      "grade": 20
+    }]
+   }, {
+    "name": "David Noam",
+    "studentId":50,
+    "year": 3,
+    "courses": [{
+      "courseName": "C",
+      "grade": 90
+    }, {
+      "courseName": "Java",
+      "grade": 89
+    }, {
+      "courseName": "Web Services",
+      "grade": 96
+    }]
+  }, {
+    "name": "Yoni Rada",
+    "studentId":60,
+    "year": 2,
+    "courses": [{
+      "courseName": "C",
+      "grade": 82
+    }, {
+      "courseName": "Java",
+      "grade": 96
+    }, {
+      "courseName": "Web Services",
+      "grade": 100
+    }]
+  }, {
+    "name": "Luly Faluly",
+    "studentId":70,
+    "year": 2,
+    "courses": [{
+      "courseName": "C",
+      "grade": 100
+    }, {
+      "courseName": "Java",
+      "grade": 90
+    }, {
+      "courseName": "Web Services",
+      "grade": 78
+    }]
+  }, {
+    "name": "Chip Chuna",
+    "studentId":80,
+    "year": 1,
+    "courses": [{
+      "courseName": "C",
+      "grade": 66
+    }, {
+      "courseName": "Java",
+      "grade": 73
+    }, {
+      "courseName": "Web Services",
+      "grade": 99
+    }]
+  }]
+}
